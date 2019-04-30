@@ -824,7 +824,7 @@ body {
 /* Basic */
 body {
   background: #252122;
-  font-family: 'Source Sans Pro';
+  font-family: 'Source Sans Pro','SF Pro Display','SF Pro Icons','Helvetica Neue',noto sans,segoe ui,'Helvetica','Arial','SF Pro SC','PingFang SC',DengXian,source han sans sc,noto sans cjk sc,source han sans cn,source han sans,microsoft yahei,STHeiti,STXihei,heiti sc,Hei,hiragino sans gb,SimHei,sans-serif;
   font-weight: 300;
   color: #5d5d5d; }
   body.is-loading * {
@@ -838,7 +838,6 @@ body {
     animation: none !important; }
 
 input, textarea, select {
-  font-family: 'Source Sans Pro';
   font-weight: 300;
   color: #5d5d5d; }
 
