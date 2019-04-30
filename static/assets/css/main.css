@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 /*
 	Dopetrope by HTML5 UP
@@ -1149,9 +1149,9 @@ ul.social {
         color: #fff;
         font-size: 2em;
         line-height: 1.5em; }
-      ul.social li a.fa-facebook {
+      ul.social li a.fa-facebook-f {
         background: #3c5a98; }
-        ul.social li a.fa-facebook:hover {
+        ul.social li a.fa-facebook-f:hover {
           background: #4c6aa8; }
       ul.social li a.fa-twitter {
         background: #2daae4; }
@@ -1161,17 +1161,17 @@ ul.social {
         background: #c4376b; }
         ul.social li a.fa-dribbble:hover {
           background: #d4477b; }
-      ul.social li a.fa-linkedin {
+      ul.social li a.fa-linkedin-in {
         background: #006599; }
-        ul.social li a.fa-linkedin:hover {
+        ul.social li a.fa-linkedin-in:hover {
           background: #1075a9; }
       ul.social li a.fa-tumblr {
         background: #2b4661; }
         ul.social li a.fa-tumblr:hover {
           background: #3b5671; }
-      ul.social li a.fa-google-plus {
+      ul.social li a.fa-google-plus-g {
         background: #da2713; }
-        ul.social li a.fa-google-plus:hover {
+        ul.social li a.fa-google-plus-g:hover {
           background: #ea3723; }
 
 ol.default {
@@ -1184,13 +1184,6 @@ ol.default {
 .icon {
   position: relative;
   text-decoration: none; }
-  .icon:before {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: none !important; }
   .icon > .label {
     display: none; }
   .icon.featured {
@@ -1834,5 +1827,3 @@ ol.default {
     margin: 3em 0 0 0; }
     #copyright .links {
       padding: 0.75em 1.25em 0.75em 1.25em; } }
-
-/*# sourceMappingURL=main.css.map */
