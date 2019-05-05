@@ -9,7 +9,7 @@
                     <header>
                         <h2>{{ .title }}</h2>
                     </header>
-                    <a href="{{ .imagelink }}" class="image featured"><img src="{{ .Site.BaseURL }}{{ .imageurl }}" alt="" /></a>
+                    <a href="{{ .imagelink }}" class="image featured"><img src="{{ .imageurl | relURL }}" alt="" /></a>
                     <p>
                         {{ .description }}
                     </p>

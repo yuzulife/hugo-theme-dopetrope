@@ -4,7 +4,7 @@
 <!-- Sidebar -->
 <section class="box">
     {{ if $sidebarsection1.image }}
-    <a href="{{ $sidebarsection1.imagelink }}" class="image featured"><img src="{{ .Site.BaseURL }}{{ $sidebarsection1.image }}" alt="" /></a>
+    <a href="{{ $sidebarsection1.imagelink }}" class="image featured"><img src="{{ $sidebarsection1.image | relURL }}" alt="" /></a>
     {{ end }}
     <header>
         <h3>{{ $sidebarsection1.title }}</h3>
